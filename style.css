@@ -266,3 +266,30 @@ section{
 summary{
     background: #E1EBEE;
 }
+
+.contact-child img{
+    height: 30px;
+    width: 30px;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+
+}
+.contact-child{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    background: #FAF9F6;
+    padding: 10px 120px;
+}
+iframe{
+    height: 300px;
+    width: 500px;
+}
+.contact-input{
+    display: flex;
+    justify-content: space-around;
+
+}

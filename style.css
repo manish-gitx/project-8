@@ -20,6 +20,7 @@ nav{
     font-family: 'Poppins',sans-serif;
     color: #ffff;
     font-size: 15px;
+    gap:20px;
     cursor: pointer;
     flex-wrap: wrap;
     
@@ -60,6 +61,8 @@ header ul{
     font-weight: bold;
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap:15px;
 }
 

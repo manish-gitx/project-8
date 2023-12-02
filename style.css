@@ -289,11 +289,12 @@ summary{
 }
 iframe{
     height: 300px;
-    width: 500px;
+    width: auto;
 }
 .contact-input{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 footer{

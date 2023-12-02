@@ -293,3 +293,32 @@ iframe{
     justify-content: space-around;
 
 }
+footer{
+    background: #28282B;
+    padding-bottom: 40px;
+    color: #fff;
+
+}
+.f-container{
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    padding: 30px 50px;
+  
+  
+  }
+  .f-container li{
+      list-style: none;
+      margin-bottom: 7px;
+      font-size: 15px;
+      cursor: pointer;
+  }
+  .b-txt{
+      font-weight: bold;
+  }
+  .icons{
+      display: flex;
+      gap: 20px;
+      margin-left: 100px;
+  }

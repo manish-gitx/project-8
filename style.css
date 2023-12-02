@@ -4,13 +4,18 @@
     box-sizing: border-box;
 }
 body{
+
+   
+}
+header{
     background: url('/img/cta-bg.jpg');
     background-size: cover;
     background-position: center;
     width: auto;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-   
+    height: 70vw;
+
 }
 nav{
     display: flex;
@@ -29,6 +34,7 @@ nav{
 	cursor: pointer;
     margin-top: 30px;
 	outline: inherit;
+    
 }
 section{
     background: url('/img/about-bg.jpg');
@@ -36,7 +42,7 @@ section{
     background-position: center;
     width: auto;
     background-repeat: no-repeat;
-
+    width: auto;
 
 
 }
@@ -46,6 +52,7 @@ section{
     color: #ffff;
     text-align: center;
     
+    
 }
 
 header ul{
@@ -54,3 +61,45 @@ header ul{
     display: flex;
     gap:15px;
 }
+
+section{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 20px;
+    /* gap: 50px; */
+}
+.section-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:6px;
+
+}
+.section-container div{
+    margin-bottom: 5px;
+}
+.section-container img{
+    width: 50px;
+    height: 50px;
+
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.section-btn{
+    background-color: #00308F;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    font-family: Rubik, sans-serif;
+    color: #fff;
+    /* font-size: 15px;
+    font-weight: 600; */
+}
+
+
+

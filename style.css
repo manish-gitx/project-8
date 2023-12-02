@@ -262,6 +262,7 @@ section{
     justify-items: center;
     text-align: center;
     padding-top: 30px;
+    gap:20px;
     
 }
 .team-child div{
@@ -361,12 +362,24 @@ footer{
         grid-template-columns: 1fr;
     }
 
-    .f-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
     .contact-info{
         flex-wrap: wrap;
         gap:30px;
 
+    }
+    footer {
+        padding: 30px;
+    }
+
+    .f-container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 15px;
+        justify-items: flex-start;
+        padding: 0px;
+    }
+
+    .icons {
+        margin: 0px 0px;
+        padding: 20px 0px;
     }
 }

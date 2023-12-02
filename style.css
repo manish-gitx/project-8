@@ -132,3 +132,70 @@ section{
 
 }
 
+
+.info{
+    background: #ADD8E6;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 30px;
+}
+.info-text{
+    display: flex;
+    gap:15px;
+    margin-bottom: 20px;
+}
+.info-text img{
+    height: 50px;
+    width: 50px;
+}
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('/img/cta-bg.jpg');
+    color: #ffff;
+    gap:15px;
+    padding: 30px 15px;
+    
+}
+.call-btn{
+    background-color:transparent;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-family: Rubik, sans-serif;
+    color: #fff;
+
+}
+.port-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.port{
+    background-color: #ffff;
+    margin: 20px 0px;
+}
+
+.port-bar{
+    display: flex;
+    gap:20px;
+    background: #ADD8E6;
+    border-radius: 16px;
+    padding: 8px;
+}
+.port-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+    padding: 30px;
+}
+.port-container img{
+    width: auto;
+    height: 200px;
+}

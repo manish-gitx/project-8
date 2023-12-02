@@ -199,3 +199,70 @@ section{
     width: auto;
     height: 200px;
 }
+.test-child img{
+    width: 100px; /* Set the width of your image */
+    height: 100px; /* Set the height of your image */
+    border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+    overflow: hidden; 
+}
+
+.test{
+    background: #B4CFEC;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    padding: 30px 0px;
+}
+
+.test-container{
+    display: flex;
+    gap:20px;
+    padding:0px 15px;
+}
+.test-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.test-info{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: center;
+}
+
+.test-text{
+    background-color: #ffff;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 6px;
+}
+
+
+.team-child img{
+    height: 300px;
+    width: auto;
+}
+.team{
+    background-color: #FAF9F6;
+    padding: 30px 0px;
+}
+
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.team-child div{
+    background:#E2DFD2;
+    padding: 15px;
+
+}
+summary{
+    background: #E1EBEE;
+}

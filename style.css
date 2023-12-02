@@ -21,7 +21,11 @@ nav{
     color: #ffff;
     font-size: 15px;
     cursor: pointer;
+    flex-wrap: wrap;
     
+}
+div .info-child{
+    margin-bottom:30px ;
 }
 .header-mid button{
     background: none;
@@ -135,6 +139,7 @@ section{
     display: flex;
     justify-content: space-around;
     padding: 80px 30px;
+    flex-wrap: wrap;
 }
 .info-text{
     display: flex;
@@ -173,6 +178,7 @@ section{
     justify-content: center;
     align-items: center;
     gap:20px;
+    text-align: center;
 }
 .port{
     background-color: #ffff;
@@ -319,3 +325,44 @@ footer{
       gap: 20px;
       margin-left: 100px;
   }
+
+
+  @media (max-width: 768px) {
+    header {
+        height: 100vh;
+    }
+
+    .header-mid {
+        padding-top: 100px;
+    }
+
+    .section-container {
+        grid-template-columns: 1fr;
+    }
+
+    .srv-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .port-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .test-container {
+        flex-direction: column;
+    }
+
+    .team-container {
+        grid-template-columns: 1fr;
+    }
+
+    .f-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact-info{
+        flex-wrap: wrap;
+        gap:30px;
+
+    }
+}

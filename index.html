@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style.css">
-    
+    <script src="/script.js" defer></script>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-up.css' rel='stylesheet'>
 </head>
 
 <body>
-    <header>
+    <header id="top">
         <nav>
         <h2>LOREM IPSUM</h2>
         <ul>
@@ -23,6 +24,7 @@
             <li>Contact</li>
         </ul>
     </nav>
+
         <div class="header-mid">
             <div class="mid-text">
                 <h1>PRESS HERE</h1>
@@ -33,6 +35,9 @@
         </div>
 
     </header>
+    <div id="fixed-section">
+        <!-- Content of the section -->
+   
 
     <section id="section">
         <div class="about-us">
@@ -218,7 +223,7 @@
         <div class="team-container">
             <div class="team-child">
                 <img src="/img/team/team-1.jpg">
-                <div>
+                <div class="team-text">
                     <h2>Manish</h2>
                     <p>CEO</p>
 
@@ -228,7 +233,7 @@
 
             <div class="team-child">
                 <img src="/img/team/team-2.jpg">
-                <div>
+                <div class="team-text">
                     <h2>Arth</h2>
                     <p>Manager</p>
                 </div>
@@ -237,7 +242,7 @@
 
             <div class="team-child">
                 <img src="/img/team/team-3.jpg">
-                <div>
+                <div class="team-text">
                     <h2>Pritam</h2>
                 <p>SDE-2</p>
                 </div>
@@ -361,15 +366,23 @@
         <li>Contact</li>
     </ul>
 </div>
+<div class="t-icons">
 		<div class="icons">
 			<img src="/img/icons/facebook.svg">
 			<img src="/img/icons/instagram.svg">
 			<img src="/img/icons/twitter.svg">
 			<img src="/img/icons/youtube.svg">
-		</div>
+        </div>
+                <a href="#top"><img class="img-icon" src="/right.png"></a>
+    </div>
+		
+
+        
 
 			
 		</footer>
+        </div>
+
 		
     
 </body>

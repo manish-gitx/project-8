@@ -458,6 +458,7 @@ input[type="submit"]:hover {
 
     .srv-container {
         grid-template-columns: repeat(2, 1fr);
+        margin-left: 15px;
     }
 
     .port-container {

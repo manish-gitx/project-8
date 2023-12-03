@@ -132,7 +132,7 @@ section{
 
 .services{
     background:#f8f8ff ;
-    padding: 50px 70px;
+    padding: 50px 60px;
 
 }
 .srv-text{
@@ -405,6 +405,7 @@ footer{
 }
 .img-icon{
     height: 50px;
+    padding-right: 40px;
     width: auto;
 }
 

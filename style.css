@@ -405,7 +405,7 @@ footer{
     margin-bottom: 20px;
 }
 .img-icon{
-    height: 50px;
+    height: 30px;
     padding-right: 40px;
     width: auto;
 }
@@ -414,6 +414,12 @@ label {
     display: block;
     margin-bottom: 5px;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 
 input[type="text"],
 input[type="email"],
